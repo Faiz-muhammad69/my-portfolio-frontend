@@ -20,7 +20,7 @@ export default function Contact() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            await axios.post("https://backend-repo-production-bd37.up.railway.app/api/contact", formData);
+            await axios.post(axios.get(`${import.meta.env.VITE_API_URL}/api/contact`));
             setStatus({ message: "Message sent successfully ✅", success: true });
             setFormData({ name: "", email: "", message: "" });
         } catch (error) {
