@@ -1,11 +1,17 @@
 export default function Portfolio() {
     const projects = [
         {
-            title: "Sales and Management System",
-            image: "/images/sales.png",
+            title: "OmniStore POS – Offline-First Retail Solution",
+            image: "/images/sale management system.png",
+            description: "I built this system for businesses where 100% internet uptime isn't guaranteed. It allows shopkeepers to perform high-speed billing and inventory tracking offline, while automatically securing their data to the cloud during closing hours.Tech Stack: React.js | Electron.js | Node.js | NeDB | Cloud Mirroring ",
+            link: "https://drive.google.com/file/d/1Abm0Q_cKsVanFESMbnYHIN46y6zTHwO1/view?usp=sharing", // Replace with actual live link
+        },
+        {
+            title: "School Account management System ",
+            image: "/images/school management.png",
             description:
-                "Built a desktop app using Electron, HTML, CSS & JS for sales tracking and inventory management. Includes a dynamic dashboard to monitor sales data and manage products.",
-            link: "https://drive.google.com/file/d/143LEYKYT3KWR6H9ZifnXCJ2QpunR-GJY/view", // Replace with actual live link
+                "A robust desktop application built with Electron.js and SQLite to digitize school operations. It replaces manual registers with a high-performance system designed to work 100% offline, ensuring data security and zero latency. Tech Stack: JavaScript | Electron.js | SQLite | Node.js",
+            link: "https://drive.google.com/file/d/1uQiEmeInl3SRsHXQDFtef140Vz_VGEQf/view?usp=sharing", // Replace with actual live link
         },
         {
             title: "Flappy Bird Quest",
@@ -58,7 +64,7 @@ export default function Portfolio() {
                                 rel="noopener noreferrer"
                                 className="inline-block bg-red-500 text-white px-5 py-2 rounded-lg hover:bg-red-600 transition-colors duration-300"
                             >
-                                View Live
+                                View Live/download
                             </a>
                         </div>
                     </div>

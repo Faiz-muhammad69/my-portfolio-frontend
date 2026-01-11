@@ -20,7 +20,8 @@ export default function Contact() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            await axios.post(axios.get(`${import.meta.env.VITE_API_URL}/api/contact`));
+            // Sirf ye ek simple line honi chahiye
+            await axios.post(`${import.meta.env.VITE_API_URL}/api/contact`, formData);
             setStatus({ message: "Message sent successfully ✅", success: true });
             setFormData({ name: "", email: "", message: "" });
         } catch (error) {

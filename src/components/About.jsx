@@ -51,10 +51,10 @@ export default function About() {
                                     <span className="font-semibold">Backend:</span> Node.js, Express.js
                                 </li>
                                 <li>
-                                    <span className="font-semibold">Database:</span> MongoDB, Mongoose
+                                    <span className="font-semibold">Database:</span> MongoDB, Mongoose, SQlite,NeDB
                                 </li>
                                 <li>
-                                    <span className="font-semibold">Tools:</span> Git, GitHub, VS Code, Postman, Figma
+                                    <span className="font-semibold">Tools:</span> Git, GitHub, VS Code, Thunder,Figma
                                 </li>
                             </ul>
                         )}
@@ -71,7 +71,7 @@ export default function About() {
                         {activeTab === "education" && (
                             <ul className="list-disc pl-5 space-y-3 text-gray-300">
                                 <li>
-                                    <span className="font-semibold">Bachelor's in Information Technology:</span> University of Sindh, currently in 3rd semester
+                                    <span className="font-semibold">Bachelor's in Information Technology:</span> University of Sindh, currently in 3rd Year
                                 </li>
                                 <li>
                                     <span className="font-semibold">Intermediate:</span> GDC Qazi Arif, 2022

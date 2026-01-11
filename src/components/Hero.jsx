@@ -24,7 +24,7 @@ export default function Hero() {
                 {/* Social Icons */}
                 <div className="flex justify-center md:justify-start gap-4 mb-6">
                     <a
-                        href="https://www.linkedin.com/in/faiz-muhammad-3b0647331"
+                        href="#"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-white hover:text-blue-500 transition-colors duration-300 text-2xl"
@@ -32,7 +32,7 @@ export default function Hero() {
                         <FaLinkedin />
                     </a>
                     <a
-                        href="https://github.com/faiziii"
+                        href="#"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-white hover:text-gray-400 transition-colors duration-300 text-2xl"
@@ -40,7 +40,7 @@ export default function Hero() {
                         <FaGithub />
                     </a>
                     <a
-                        href="https://twitter.com/faiziii"
+                        href="#"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-white hover:text-blue-400 transition-colors duration-300 text-2xl"
@@ -51,7 +51,7 @@ export default function Hero() {
 
                 {/* Download CV Button */}
                 <a
-                    href="/files/faiz-cv.pdf"
+                    href="/files/my updated CV.pdf"
                     download
                     className="inline-block bg-red-500 hover:bg-red-600 text-white font-semibold px-6 py-3 rounded-lg transition-colors duration-300"
                 >
